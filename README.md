@@ -19,7 +19,9 @@
 9.Install The 4youtools 
 
 
+
 Information Gathering ~>
+
 - Nmap -
 
 - Setoolkit -
@@ -43,16 +45,23 @@ Information Gathering ~>
 - Crips -
 
 
+
 Password Attacks ~>
+
 - Cupp -
 
 - Ncrack -
 
 
+
 Wireless Testing ~>
+
 - reaver -
+
 - pixiewps -
+
 - Fluxion -
+
 
 
 Exploitation Tools ~>
@@ -70,6 +79,7 @@ Exploitation Tools ~>
 - jboss-autopwn -
 
 
+
 Sniffing & Spoofing ~>
 
 - Setoolkit -
@@ -79,6 +89,7 @@ Sniffing & Spoofing ~>
 - pyPISHER -
 
 - SMTP Mailer -
+
 
 
 Web Hacking ~>
@@ -112,6 +123,7 @@ Web Hacking ~>
 - Web Application Security Scanner Framework -
 
 
+
 Private Web Hacking ~>
 
 - Get all websites -
@@ -137,6 +149,7 @@ Private Web Hacking ~>
 - Get server Info -
 
 - Bypass Cloudflare -
+
 
 
 Post Exploitation ~>
