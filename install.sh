@@ -31,11 +31,11 @@ read INPUT
 echo ""
 
 if [ "$PREFIX" = "/data/data/com.termux/files/usr" ]; then
-    INSTALL_DIR="$PREFIX/usr/share/doc/hackerpro"
+    INSTALL_DIR="$PREFIX/usr/share/doc/4youtools"
     BIN_DIR="$PREFIX/usr/bin/"
     pkg install -y git python2
 else
-    INSTALL_DIR="/usr/share/doc/hackerpro"
+    INSTALL_DIR="/usr/share/doc/4youtools"
     BIN_DIR="/usr/bin/"
 fi
 
@@ -54,7 +54,7 @@ echo "[✔] Installing ...";
 echo "";
 git clone https://github.com/faizal-acbar/4you-tools.git "$INSTALL_DIR";
 echo "#!/bin/bash
-python $INSTALL_DIR/4youtools.py" '${1+"$@"}' > hackerpro;
+python $INSTALL_DIR/4youtools.py" '${1+"$@"}' > 4youtools;
 chmod +x 4youtools;
 sudo cp 4youtools /usr/bin/;
 rm 4youtools;
